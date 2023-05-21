@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "403234513683",
+    "project_id": "fir-b3920",
+    "storage_bucket": "fir-b3920.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403234513683:android:fe88af053c5040be2530e6",
+        "android_client_info": {
+          "package_name": "com.example.tutorialsdk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403234513683-g3tsbhkmmiqc9b74846o1njvc81ala78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUysUCkngPynD7ztoEm4RDSDRb4ghjJds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403234513683-g3tsbhkmmiqc9b74846o1njvc81ala78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
