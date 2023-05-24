@@ -12,6 +12,7 @@ import com.moengage.cards.ui.CardActivity
 import com.moengage.core.Properties
 import com.moengage.core.analytics.MoEAnalyticsHelper
 import com.moengage.inapp.MoEInAppHelper
+import com.moengage.inbox.ui.view.InboxActivity
 import com.moengage.pushbase.MoEPushHelper
 
 class MainActivity : AppCompatActivity() {
@@ -32,7 +33,13 @@ class MainActivity : AppCompatActivity() {
         val s= attributeVal.text.toString()
         properties.addAttribute("Password", "${attributeVal.text.toString()}")
         val trackevent=findViewById<View>(R.id.TrackEvent)
+        val notif = findViewById<View>(R.id.notif)
 
+        notif.setOnClickListener(View.OnClickListener {
+            val intent = Intent(this, InboxActivity::class.java)
+            startActivity(intent)
+
+        })
         customat.setOnClickListener( View.OnClickListener{
             val intent2 = Intent(this, CustomAttribute::class.java )
             startActivity(intent2)

@@ -99,6 +99,12 @@
         android:padding="20dp"
         />
 
-
+<com.google.android.material.button.MaterialButton
+    android:id="@+id/notif"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@drawable/baseline_notifications_24"
+    android:background="@color/moe_inbox_transparent_color"
+    android:layout_alignRight="@id/signin"/>
 
 </RelativeLayout>
