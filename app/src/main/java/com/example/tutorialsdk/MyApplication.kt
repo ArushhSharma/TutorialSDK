@@ -15,7 +15,7 @@ public class MyApplication: Application() {
 
     override fun onCreate() {
         super.onCreate()
-        val moEngage = MoEngage.Builder(this, "BQBLHI0GC3I0GGOALY7AHWXL", DataCenter.DATA_CENTER_1)
+        val moEngage = MoEngage.Builder(this, "2877NHMD0TOHATHC6NNHDERW", DataCenter.DATA_CENTER_1)
             .configureNotificationMetaData(NotificationConfig(R.drawable.small_icon, R.drawable.large_icon))
             .configureLogs(LogConfig(VERBOSE))
             .configureFcm(FcmConfig(true))

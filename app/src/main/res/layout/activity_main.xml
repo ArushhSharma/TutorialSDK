@@ -22,6 +22,8 @@
 
     <EditText
         android:id="@+id/username"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/signin"
@@ -38,10 +40,12 @@
 
     <EditText
         android:id="@+id/password"
+        android:textColorHint="@color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/username"
         android:layout_marginStart="20dp"
+        android:textColor="@color/black"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
@@ -61,7 +65,6 @@
         android:layout_below="@+id/password"
         android:layout_centerHorizontal="true"
 
-        android:backgroundTint="@color/black"
         android:padding="20dp"
         android:text="Log In" />
 
@@ -82,6 +85,16 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/customatt"
         android:text="Track Event"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TrackEvent"
+        android:layout_margin="15dp"
+        android:text="Show Cards"
         android:layout_centerHorizontal="true"
         android:padding="20dp"
         />

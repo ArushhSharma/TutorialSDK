@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
+import android.widget.Toast
 import com.google.android.material.button.MaterialButton
 import com.moengage.core.Properties
 import com.moengage.core.analytics.MoEAnalyticsHelper
@@ -29,6 +30,7 @@ class CustomAttribute : AppCompatActivity() {
 //            MoEAnalyticsHelper.setUniqueId(this, attributeName.text.toString())
 //            MoEAnalyticsHelper.setUserName(this, attributeVal.text.toString())
             MoEAnalyticsHelper.setUserAttribute(this,attributeName.text.toString(), attributeVal.text.toString())
+            Toast.makeText(this, "Data Tracked", Toast.LENGTH_SHORT).show()
 
 
 //            Log.d("MainActivity",username.text.toString())
